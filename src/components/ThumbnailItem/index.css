@@ -1,0 +1,28 @@
+/* Thumbnail Button Wrapper */
+.galleryItem {
+  margin: 0 10px;
+}
+
+/* Remove default button styling */
+.btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Thumbnail image base style */
+.thumbnail {
+  opacity: 0.5;
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  transition: opacity 0.3s ease;
+}
+
+/* Active (selected) thumbnail */
+.thumbnail.active {
+  opacity: 1;
+  border: 2px solid #00bfff;
+}
